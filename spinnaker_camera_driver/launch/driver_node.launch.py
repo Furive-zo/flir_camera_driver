@@ -159,7 +159,7 @@ def launch_setup(context, *args, **kwargs):
     node = Node(
         package='spinnaker_camera_driver',
         executable='camera_driver_node',
-        output='screen',
+        output='log',
         name=[LaunchConfig('camera_name')],
         parameters=[
             example_parameters[camera_type],
