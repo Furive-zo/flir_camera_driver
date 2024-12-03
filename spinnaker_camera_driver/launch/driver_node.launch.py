@@ -33,6 +33,7 @@ example_parameters = {
         'gain_auto': 'Continuous',
         #'pixel_format': 'BGR8',
         'exposure_auto': 'Continuous',
+        #'exposure_time': 1500,
         # to use a user set, do this:
         'user_set_selector': 'UserSet0',
         'user_set_load': 'Yes',
